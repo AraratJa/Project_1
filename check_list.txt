@@ -1,0 +1,7 @@
+1. Positive-check user registration is succesfull when all fields required are field with valid data
+2. Negative-check password cant be less then 8 characters, has at least one upper case, one lower case, contains digit or specific symbol
+3. Negative-check email adress invalid formats are not acceptable
+4. Positive-check created user can logged in
+5. Positive-check new project can be created
+6. Positive-check other users can be invited to project
+7. Positive-check invited friends role can be changed

@@ -1,0 +1,25 @@
+class Locators:
+    input__password_field="//input[@id='password']"
+    input__email_field="//input[@id='email']"
+    login_email_field="//input[@id='username']"
+    submit_button="//div[@class='c6d7d2ace']"
+    create_acount_button="//span[contains(text(),'Создать аккаунт')]"
+    created_acount_checker="//header/div[1]/button[1]/span[1]/div[1]/img[1]"
+    Login_button="//span[contains(text(),'Войти в аккаунт')]"
+    create_project="//body/div[@id='app']/div[1]/main[1]/div[1]/div[1]/div[2]/div[5]/div[1]/button[1]/span[1]"
+    project_name_input="/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[2]/input[1]"
+    project_create_button="//body/div[@id='app']/div[3]/div[1]/div[1]/div[3]/button[1]/span[1]"
+    iframe_button="//html/body/div[1]/div/main/div/div/div[1]/div/div[2]/div[2]/button"
+    check_project="/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[2]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+    friend_invite_start_button="//body/div[@id='app']/div[1]/main[1]/div[1]/div[1]/div[2]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]"
+    friend_invite_button="//body/div[@id='app']/div[1]/main[1]/div[1]/div[1]/div[2]/div[5]/div[2]/button[3]/span[1]"
+    friend_invite_email_input="input"
+    friend_role="//button[contains(text(),'Редактор')]"
+    friend_invite_add_button="//div[@class='v-card__actions']//child::span"
+    members_check="//td[@class='text-start']//child::span"
+    members_list="//div[@class='v-avatar mr-3 my-1']"
+
+class Er_locators:
+    wrong_email_format="//span[@id='error-element-email']"
+    wrong_password_format="//body/div[1]/main[1]/section[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]"
+    
